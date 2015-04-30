@@ -1,7 +1,61 @@
+var BACKGROUND_COLOR = '#000000';
+
+var COLORS = [
+  // Blues
+  0xCC1A2944,
+  0xCC2DA7C7,
+  0xCC56ACBA,
+  0xCC98C4C9,
+  0xCCA7FFFA,
+  0xCCCBD5D2,
+  0xCCB2D4CA,
+  0xCCEFFFF0,
+  0xCC485773,
+  0xCC6685B0,
+  0xCC80BAE0,
+  0xCCBCD7F1,
+  0xCCF2E6F2,
+  0xCC30F5D4,
+  0xCC30BBDB,
+  0xCC2D243B,
+  0xCC004EAB,
+  // Reds
+  0xCCED5E11,
+  0xCCBF364F,
+  0xCC730240,
+  0xCCBF0426,
+  0xCC730A1D,
+  0xCCF23D7F,
+  0xCCF25EB0,
+  0xCCAE2678,
+  0xCCCC3366,
+  0xCC990033,
+  0xCCCC9999,
+  0xCCCC3399,
+  0xCCCC3333,
+  0xCCCC33CC,
+  // Oranges
+  0xCCE89509,
+  0xCCFFBD0A,
+  0xCCFF8103,
+  0xCCFF3D0A,
+  0xCCE85809,
+  0xCCBF2E07,
+  0xCCB34114,
+  0xCCFFC936,
+  0xCCBF4828,
+  0xCCF1BF6B,
+  0xCCFF9A35,
+  0xCC804102,
+  0xCCEDAA3A,
+  0xCCFF643B
+];
+
+
 function setup() {
-  // put setup code here
+  createCanvas(640, 480);
 }
 
 function draw() {
-  // put drawing code here
+  background(BACKGROUND_COLOR);
 }
